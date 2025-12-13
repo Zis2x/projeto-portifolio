@@ -13,11 +13,11 @@
     <header>
       <nav id="menu">
         <ul>
-          <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
-          <li><a href="#"><i class="fa-solid fa-brain"></i></i></a></li>
-          <li><a href="#"><i class="fa-solid fa-graduation-cap"></i></a></li>
-          <li><a href="#"><i class="fa-solid fa-trowel-bricks"></i></a></li>
-          <li><a href="#"><i class="fa-solid fa-moon"></i></a></li>
+          <li><a href="#ficha" class="link"><i class="fa-solid fa-house"></i></a></li>
+          <li><a href="#skills" class="link"><i class="fa-solid fa-brain"></i></i></a></li>
+          <li><a href="#formacao" class="link"><i class="fa-solid fa-graduation-cap"></i></a></li>
+          <li><a href="#projetos" class="link"><i class="fa-solid fa-trowel-bricks"></i></a></li>
+          <li><a href="#" id="botao-tema" class="link"><i class="fa-solid fa-moon"></i></a></li>
         </ul>
       </nav>
     </header>
@@ -49,7 +49,7 @@
           <h2><i class="fa-solid fa-brain"></i> Minhas Skills</h2>
           
           <div id="skill-container">
-            <div class="item">
+            <div class="item"> <!--01-->
               <div class="info">
                 <span class="nome">
                  <i class="fa-solid fa-code"></i> HTML5
@@ -64,7 +64,7 @@
               </div>
             </div>
 
-            <div class="item">
+            <div class="item"> <!--02-->
               <div class="info">
                 <span class="nome">
                  <i class="fa-solid fa-code"></i> CSS3
@@ -79,7 +79,7 @@
               </div>
             </div>
 
-            <div class="item">
+            <div class="item"> <!--03-->
               <div class="info">
                 <span class="nome">
                  <i class="fa-solid fa-code"></i> JavaScript
@@ -94,7 +94,7 @@
               </div>
             </div>
 
-            <div class="item">
+            <div class="item"> <!--04-->
               <div class="info">
                 <span class="nome">
                  <i class="fa-solid fa-person-rays"></i> Comunicação
@@ -109,7 +109,7 @@
               </div>
             </div>
 
-            <div class="item">
+            <div class="item"> <!--05-->
               <div class="info">
                 <span class="nome">
                  <i class="fa-solid fa-person-rays"></i> Adaptabilidade
@@ -124,7 +124,7 @@
               </div>
             </div>
 
-            <div class="item">
+            <div class="item"> <!--06-->
               <div class="info">
                 <span class="nome">
                  <i class="fa-solid fa-person-rays"></i> Trabalho Em Equipe
@@ -147,31 +147,31 @@
           <h2><i class="fa-solid fa-graduation-cap"></i> Minhas Formações</h2>
 
           <div id="formacao-container">
-            <div class="curso">
+            <div class="curso"> <!--curso 1-->
               <p class="periodo"> 2013 - 2014</p>
                 <h3 class="instituicao"> MacroByte</h3>
                 <p class="titulacao"> Curso de Informática</p>
             </div>
 
-            <div class="curso">
+            <div class="curso"> <!--curso 2-->
               <p class="periodo"> 2017 - 2018</p>
                 <h3 class="instituicao"> Universo Arte e Tecnologia</h3>
                 <p class="titulacao">Tecnico em Informática</p>
             </div>
 
-             <div class="curso">
+             <div class="curso"> <!--curso 3-->
               <p class="periodo"> 2022 - 2025</p>
                 <h3 class="instituicao"> Zion - Escola de Games e Design</h3>
                 <p class="titulacao"> Auxiliar Design de Games</p>
             </div>
 
-            <div class="curso">
+            <div class="curso"> <!--curso 4-->
               <p class="periodo"> 2023 - 2025</p>
                 <h3 class="instituicao"> Estudonauta</h3>
                 <p class="titulacao">Auxiliar Web-Design</p>
             </div>
 
-            <div class="curso">
+            <div class="curso"> <!--curso 5-->
               <p class="periodo"> 2025 </p>
                 <h3 class="instituicao"> Curso em Video</h3>
                 <p class="titulacao"> Inglês A1</p>
@@ -181,14 +181,65 @@
 
         <article id="projetos">
           <h2><i class="fa-solid fa-trowel-bricks"></i> Meus Projetos</h2>
-        </article> <!--projetos-->
 
-      </section> <!-- Apresentação-->
+          <div id="projeto-container"> <!--Videos-->
+            <div class="projeto">
+              <img src="imagens/projeto-01-videos.jpg" alt="Projeto videos" class="foto">
+              <div class="projeto-info">
+                <p class="periodo">2023</p>
+                <h3 class="titulo">Projeto de Vídeos</h3>
+                <p>Projeto construido para treinar a inserção de vídeos em nosso site</p>
+                <details class="saibamais">
+                  <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, optio voluptate, unde qui velit in dicta fuga ut, corrupti cupiditate eius. Distinctio voluptatem ea incidunt quia quibusdam, consequuntur velit exercitationem.</summary>
+                </details>
+              </div>
+            </div>
+
+            <div class="projeto"> <!--Cordel-->
+              <img src="imagens/projeto-02-cordel.jpg" alt="Projeto videos" class="foto">
+              <div class="projeto-info">
+                <p class="periodo">2023</p>
+                <h3 class="titulo">Projeto Cordel</h3>
+                <p>Projeto construido para treinar efeito parallax em imagens</p>
+                <details class="saibamais">
+                  <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, optio voluptate, unde qui velit in dicta fuga ut, corrupti cupiditate eius. Distinctio voluptatem ea incidunt quia quibusdam, consequuntur velit exercitationem.</summary>
+                </details>
+              </div>
+            </div>
+
+            <div class="projeto"> <!--Androids-->
+              <img src="imagens/projeto-03-android.jpg" alt="Projeto videos" class="foto">
+              <div class="projeto-info">
+                <p class="periodo">2023</p>
+                <h3 class="titulo">Projeto de Vídeos</h3>
+                <p>Projeto construido para treinar conteúdos e imagens dinâmicas</p>
+                <details class="saibamais">
+                  <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, optio voluptate, unde qui velit in dicta fuga ut, corrupti cupiditate eius. Distinctio voluptatem ea incidunt quia quibusdam, consequuntur velit exercitationem.</summary>
+                </details>
+              </div>
+            </div>
+
+            <div class="projeto"> <!--Login-->
+              <img src="imagens/projeto-05-login.jpg" alt="Projeto videos" class="foto">
+              <div class="projeto-info">
+                <p class="periodo">2023</p>
+                <h3 class="titulo">Projeto Login</h3>
+                <p>Projeto construido para treinar Responsividade e formulários em uma das telas mais populares em sistemas</p>
+                <details class="saibamais">
+                  <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, optio voluptate, unde qui velit in dicta fuga ut, corrupti cupiditate eius. Distinctio voluptatem ea incidunt quia quibusdam, consequuntur velit exercitationem.</summary>
+                </details>
+              </div>
+            </div>
+
+          </div>
+        </article> <!-- Fim projetos-->
+
+      </section> <!--Fim Detalhes-->
 
     </main>
 
     <footer>
-
+      Portifólio desemvolvido por <a href="http://www.cursoemvideo.com/" target="_blank" rel="nofollow">Curso em Vídeo</a> em 2025
     </footer>
 
     <script src="scripts/script.js"> </script>
