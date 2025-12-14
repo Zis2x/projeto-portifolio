@@ -29,7 +29,6 @@ body {
   background-color: var(--fundo-principal);
   color: var(--texto);
   transition: background-color 0.5s, color 0.5s;
-  display: block;
 }
 
 body.escuro {
@@ -38,8 +37,8 @@ body.escuro {
   --texto-inverso: #333333;
   --destaque: #ff5522;
   --destaque-inverso: #a73917;
-  --fundo-card: #444444;
-}
+  --fundo-card: #444444; 
+  }
 
 header {
   background-color: var(--destaque);
