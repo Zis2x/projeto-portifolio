@@ -1,12 +1,6 @@
-main {
-  display: grid;
-  grid-template-columns: auto 90vw auto;
-  gap: 20px;
-}
 
-section#ficha {
-  background-color: var(--fundo-card);
-  padding: 20px;
-  border-radius:8px; 
-  grid-column: 2 / 3;
+#skill-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
 }
