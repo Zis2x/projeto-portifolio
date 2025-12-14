@@ -66,6 +66,10 @@ nav#menu a:hover {
   transition: background-color 0.5s, color 0.5s;
 }
 
+section#ficha {
+  padding: 20px;
+}
+
 section#ficha img.foto {
   width: 200px;
   aspect-ratio: 1/1;
