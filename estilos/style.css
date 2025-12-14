@@ -83,7 +83,7 @@ section#ficha {
   background-color: var(--fundo-card);
   padding: 20px;
   border-radius:8px;
-  column: 2 / 3;  
+  columns: 2 / 3;  
 }
 
 section#ficha img.foto {
@@ -263,7 +263,7 @@ footer a:hover {
   color: var(--destaque-inverso);
 }
 
-@media screen and (min-width: 1120px) {
+@media screen and (min-width: 769px) {
   main {
     columns: auto 300px 1fr auto;
   }
