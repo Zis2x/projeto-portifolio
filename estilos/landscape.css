@@ -1,5 +1,5 @@
 main {
-    
+    gap: 20px;
 }
 
 section#ficha {
@@ -7,10 +7,9 @@ section#ficha {
 }
 
 div#social {
-    display: flex;
-    justify-content: center;
     gap: 1.2em;
 }
+
 section#detalhes {
     
 }
