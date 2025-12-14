@@ -28,6 +28,16 @@ body {
   line-height: 1.5em;
   background-color: var(--fundo-principal);
   color: var(--texto);
+  transition: background-color 0.5s, color 0.5s;
+}
+
+body.escuro {
+  --fundo-principal: #222222;
+  --texto: #e0e0e0;
+  --texto-inverso: #333333;
+  --destaque: #ff5522;
+  --destaque-inverso: #a73917;
+  --fundo-card: #444444;
 }
 
 header {
@@ -98,7 +108,7 @@ div#social {
   justify-content: center;
   align-items: center;
   font-size: 1.6em;
-  gap: 2em;
+  gap: 1.5em;
 }
 
 div#social a {
@@ -255,7 +265,7 @@ footer a:hover {
 
 @media screen and (min-width: 768px) {
   main {
-    grid-template-columns: auto 300px 1fr auto;
+    columns: auto 300px 1fr auto;
   }
 
   section#ficha {
