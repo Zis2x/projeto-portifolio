@@ -73,22 +73,16 @@ nav#menu a:hover {
 }
 
 main {
-  display: block;
-  width: 90%;
-  margin: 20px auto 0 auto;
-}
-
-section {
-  display: block;
-   width: 100%;
-   margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: auto 90vw auto;
+  gap: 20px;
 }
 
 section#ficha {
   background-color: var(--fundo-card);
   padding: 20px;
-  border-radius:8px;  
- 
+  border-radius:8px; 
+  grid-column: 2 / 3;
 }
 
 section#ficha img.foto {
@@ -270,8 +264,6 @@ footer a:hover {
 
 @media screen and (min-width: 769px) {
   main {
-    display: grid;
-    gap: 20px;
     grid-template-columns: auto 300px 1fr auto;
   }
 
