@@ -1,0 +1,35 @@
+main {
+    
+}
+
+section#ficha {
+    
+}
+
+div#social {
+    display: flex;
+    justify-content: center;
+    gap: 1.2em;
+}
+section#detalhes {
+    
+}
+
+#skill-container {
+    
+}
+
+#projeto-container .projeto {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+#projeto-container .projeto-info {
+    max-width: 80%;
+  }
+
+#projeto-container .foto {
+    aspect-ratio: 1/1;
+    max-width: 20%;
+    max-height: 200px;
+  }
