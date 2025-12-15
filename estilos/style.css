@@ -136,20 +136,15 @@ article h2 {
 }
 
 article#video .videocontainer {
-  position: relative;
-  margin: auto;
-  width: 100%;
-  aspect-ratio: 16/9;
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .videocontainer iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 50%;
-  border-radius: 8px;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 #skill-container {
@@ -265,7 +260,7 @@ footer a:hover {
   color: var(--destaque-inverso);
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1090px) {
   main {
     grid-template-columns: auto 300px 1fr auto;
   }
