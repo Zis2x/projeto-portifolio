@@ -1,9 +1,14 @@
+header {
+  width: 100vw;
+}
 main {
-    gap: 20px;
+   display: grid;
+   grid-template-columns: auto 300px 1fr auto;
+   gap: 20px;
 }
 
 section#ficha {
-    
+    grid-column: 2/3;
 }
 
 div#social {
@@ -11,7 +16,7 @@ div#social {
 }
 
 section#detalhes {
-    
+    grid-column: 3;
 }
 
 #skill-container {
