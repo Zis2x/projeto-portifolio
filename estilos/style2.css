@@ -80,7 +80,6 @@ section#ficha {
 
 section#detalhes {
   grid-column: 2;
-  padding: 10px;
 }
 
 section#ficha img.foto {

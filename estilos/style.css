@@ -119,6 +119,10 @@ div#social a:hover {
   color: var(--destaque-inverso);
 }
 
+section#detalhes {
+  grid-column: 2 / 3;
+}
+
 article {
   background-color: var(--fundo-card);
   padding: 20px;
@@ -137,7 +141,6 @@ article#video .videocontainer {
   width: 100%;
   aspect-ratio: 16/9;
   overflow: hidden;
-  border: 5px solid red;
 }
 
 .videocontainer iframe {
