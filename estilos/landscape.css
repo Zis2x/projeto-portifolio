@@ -20,7 +20,8 @@ section#detalhes {
 }
 
 #skill-container {
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 #projeto-container .projeto {
