@@ -136,14 +136,18 @@ article h2 {
 }
 
 article#video .videocontainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  max-width: 90%;
+  margin: auto;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  border-radius: 8px;
 }
 
 .videocontainer iframe {
-  aspect-ratio: 16/9;
-  width: 90%;
+  height: 100%;
+  width: 100%;
+  border: 0;
 }
 
 #skill-container {
