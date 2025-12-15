@@ -66,24 +66,40 @@ nav#menu a:hover {
   color: var(--destaque);
   transition: background-color 0.5s, color 0.5s;
 }
+main {
+  display: grid;
+  grid-template-columns: auto 90vw auto;
+  gap: 10px;
+  margin-top: 20px;
+}
 
 section#ficha {
+  grid-column: 2/3;
+  padding: 10px;
+}
+
+section#detalhes {
+  grid-column: 2;
   padding: 10px;
 }
 
 section#ficha img.foto {
   width: 200px;
+  align-items: center;
+  margin: auto;
   aspect-ratio: 1/1;
   object-fit: cover;
   overflow: hidden;
   border-radius: 50%;
   border: 5px solid var(--fundo-card);
   outline: 5px solid green;
+  display: block;
+  margin: auto;
 }
 
 section#ficha h1 {
   color: var(--destaque);
-  margin: 15px 0;
+  margin:  8px 0;
   font-size: 1.5em;
   gap: 1em;
   text-align: left;
@@ -108,7 +124,7 @@ div#social a:hover {
 
 article {
   background-color: var(--fundo-card);
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 20px;
   border-radius: 8px;
 }
@@ -126,7 +142,8 @@ article#video .videocontainer {
 
 .videocontainer iframe {
   aspect-ratio: 16/9;
-  width: auto;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 #skill-container {
