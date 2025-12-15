@@ -34,6 +34,7 @@ body {
   --fundo-card: #444444; 
   }*/
 
+
 header {
   background-color: var(--destaque);
   display: flex;
@@ -67,7 +68,7 @@ nav#menu a:hover {
 }
 
 section#ficha {
-  padding: 20px;
+  padding: 10px;
 }
 
 section#ficha img.foto {
