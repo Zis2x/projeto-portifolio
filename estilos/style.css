@@ -215,6 +215,38 @@ article#video .videocontainer {
   color: var(--destaque-inverso);
 }
 
+details.saibamais {
+  margin-top: 10px;
+}
+
+details.saibamais .titulo {
+  color: var(--destaque);
+  font-weight: 600;
+}
+
+details.saibamais ul {
+  list-style: none;
+  padding-left: 15px;
+  margin: 8px 0;
+  border-left: 3px solid var(--destaque-inverso);
+  border-radius: 6px;
+}
+
+details.saibamais li {
+  margin-bottom: 8px;
+}
+
+details.saibamais summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--destaque);
+  margin-bottom: 8px;
+}
+
+details.saibamais[open] summary {
+  color: var(--destaque);
+}
+
 #projeto-container {
   display: flex;
   flex-direction: column-reverse;
